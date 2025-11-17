@@ -1,0 +1,4 @@
+Classes - Container containing data/attributes and functions/methods
+
+
+Namespace - Container for related classes
