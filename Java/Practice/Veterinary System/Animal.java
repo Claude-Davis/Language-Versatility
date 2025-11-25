@@ -1,17 +1,16 @@
 public interface Animal {
-    private String name;
-    private int age;
-    private char sex;
-    private float weight;
-    private float height;
-    private Boolean has_owner;
+    //getters
+    public String getName();
+    public String getAge();
+    public String getSex();
+    public String getSize();
+    public String getHas_owner();
 
-
-    void registerPatient();
-
-    void checkinGuest();
-
-    void pullPatientRecords();
-
-    void updatePatientRecords();
-}
+    //setters
+    public void setName(String name);
+    public void setAge(int age);
+    public void setSex(char sex);
+    public void setWeight(Double weight);
+    public void setHeight(Double height);
+    public void setHas_owner(Boolean has_owner);
+};
