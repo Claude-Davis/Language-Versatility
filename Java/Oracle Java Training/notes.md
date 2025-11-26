@@ -41,3 +41,24 @@ if (y<x){
 }
 ```
 * If *condition* is true, assign the value of *value1* to the result of. Otherwise, assign the value of *value2* to the result.
+
+
+
+# `switch` STATEMENT
+```
+double price = 1.99;
+double discount = 0;
+String condition = "used";
+
+switch(condition){
+    case "damaged":
+        discount = price*0.2;
+        break;
+    case "used":
+        discount=price*0.2;
+        break;
+    default:
+        discount=price;
+}
+```
+* The state/value of the condition determines which case (set of code) will be executed.
