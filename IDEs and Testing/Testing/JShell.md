@@ -5,15 +5,15 @@ JShell evaluates declarations, statements, and expressions as they are entered a
 Use Example:
 
 
-        **$ jshell**
-        **jshell>** int x=1
+        $ jshell
+        jshell> int x=1
         x==> 1
-        **jshell>** int y=1
+        jshell> int y=1
         y==> 1
-        **jshell>** x+y
+        jshell> x+y
         $3 ==> 2
-        **jshell>**/exit
-        **$**
+        jshell>/exit
+        $
 
 
 Command Reference
