@@ -62,3 +62,26 @@ switch(condition){
 }
 ```
 * The state/value of the condition determines which case (set of code) will be executed.
+
+
+
+# Arrays
+Format opt.1: value_type[] arrayName = new value_type[array_size]
+* all values will be initiated with their default values
+```
+int[] array1 = new int[5];
+array1[0] = 89;  //assigns the index 0 (first index) the value of 89
+array1[4] = 76;  //assigns the index 4 (last index) the value of 76
+```
+
+Format opt.2: value_type[] arrayName = {value1, value2, value3, ...}
+* initializes a new array with defined values and size
+```
+String[] array2 = {Jeremy, Jason, Jackie, Jesse, Jessica, Jasmine};
+```
+
+Referencing values in an array:
+```
+System.out.println(array2[1] + " is 56 years old.");  //output: Jason is 56 years old.
+
+System.out.println(array1[0] + array1[4]);  //output: 165 (the value of 89+76)
