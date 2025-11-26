@@ -16,7 +16,7 @@ public class Main {
         //greet customer
         c1.greeting();
 
-        System.out.println(" ");
+    
 
         //create clothing objs
         Clothing item1= new Clothing();
@@ -27,19 +27,18 @@ public class Main {
         item1.setPrice(20.9);
         item2.setPrice(10.5);
         item2.setSize("S");
-        //print the info for the clothing objs
-        System.out.println(item1.toString() + " " + item2.toString());
 
         System.out.println(" ");
 
         //array of clothing objs
         Clothing[] items = {item1, item2, item2};
+        System.out.println(items[1].toString());
 
         System.out.println(" ");
 
         //total price calculation
         total += tax*(item1.getPrice()+(2*item2.getPrice())) + (item1.getPrice()+(2*item2.getPrice()));
-        System.out.println("$"+total);
+        System.out.println("The total cost for all items purchased is $"+total+".");
 
         System.out.println(" ");
 
