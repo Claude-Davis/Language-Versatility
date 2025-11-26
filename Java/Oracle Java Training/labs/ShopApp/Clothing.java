@@ -12,6 +12,7 @@ public class Clothing {
 
     //getter
     public double getPrice(){return price;}
+    public String getDesc(){return description;}
 
     //toString
     public String toString(){return "This is a size " +size+ ", " +description+ " selling for $" +price+ ".";}
