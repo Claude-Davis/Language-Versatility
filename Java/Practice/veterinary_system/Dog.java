@@ -4,12 +4,12 @@ public class Dog implements Animal{
     private String name;
     private int age;
     private char sex;
-    private Double weight;
-    private Double height;
+    private double weight;
+    private double height;
     private Boolean has_owner;
     private Arrays records;
 
-    public Dog(String n, int a, char s, Double w, Double h, Boolean o){
+    public Dog(String n, int a, char s, double w, double h, Boolean o){
         this.name=n;
         this.age=a;
         this.sex=s;
@@ -56,10 +56,10 @@ public class Dog implements Animal{
     public void setSex(char sex){
         this.sex=sex;}
     @Override
-    public void setWeight(Double weight){
+    public void setWeight(double weight){
         this.weight=weight;}
     @Override
-    public void setHeight(Double height){
+    public void setHeight(double height){
         this.height=height;}
     @Override
     public void setHas_owner(Boolean has_owner){

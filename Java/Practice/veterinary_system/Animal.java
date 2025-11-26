@@ -10,7 +10,7 @@ public interface Animal {
     public void setName(String name);
     public void setAge(int age);
     public void setSex(char sex);
-    public void setWeight(Double weight);
-    public void setHeight(Double height);
+    public void setWeight(double weight);
+    public void setHeight(double height);
     public void setHas_owner(Boolean has_owner);
 };
