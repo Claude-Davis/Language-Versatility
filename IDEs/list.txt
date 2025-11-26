@@ -1,0 +1,8 @@
+NetBeans
+    https://netbeans.apache.org/front/main/index.html
+
+Visual Studio Code (vscode)
+    https://code.visualstudio.com/
+
+Perl
+    https://perl-begin.org/IDEs-and-tools/
