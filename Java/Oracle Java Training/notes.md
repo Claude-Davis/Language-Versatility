@@ -28,10 +28,11 @@ final String CAT_NAME = "Myran";
 
 
 
-# TERNARY CONDITIONAL OPERATOR ?:
+# TERNARY CONDITIONAL OPERATOR   ?:
 ```
 condition ? value1 : value2
 z = (y<x) ? x : y;
+
 //as an if-else statement
 if (y<x){
     z=x;
