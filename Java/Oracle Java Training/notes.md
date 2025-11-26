@@ -16,3 +16,9 @@ Constants are variables whose value cannot change. A variable is made constant u
     final String CAT_NAME = "Myran";
 ---
 * Constants are usually written in all caps and words are separated by underscores, but these are not required.
+
+Operator Precedence
+    1. operators within parentheses
+    2. increment or decrement operators
+    3. multiplication and division (left to right)
+    4. addition and subtraction (left to right)
