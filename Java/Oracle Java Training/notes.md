@@ -1,5 +1,4 @@
-#VARIABLES
-
+# VARIABLES
 **Two variables** of the same type can be **initialized simultaneously**.
 ```
 int x=90, y=56;
@@ -21,8 +20,7 @@ final String CAT_NAME = "Myran";
 
 
 
-#OPERATOR PRECEDENCE
-
+# OPERATOR PRECEDENCE
 1. operators within parentheses
 2. increment or decrement operators
 3. multiplication and division (left to right)
@@ -30,7 +28,7 @@ final String CAT_NAME = "Myran";
 
 
 
-#TERNARY CONDITIONAL OPERATOR ?:
+# TERNARY CONDITIONAL OPERATOR ?:
 ```
 condition ? value1 : value2
 z = (y<x) ? x : y;
@@ -41,5 +39,4 @@ if (y<x){
     z=y;
 }
 ```
-
 * If *condition* is true, assign the value of *value1* to the result of. Otherwise, assign the value of *value2* to the result.
