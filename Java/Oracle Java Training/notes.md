@@ -65,7 +65,7 @@ switch(condition){
 
 
 
-# Arrays
+# ARRAYS
 Format opt.1: value_type[] arrayName = new value_type[array_size]
 * all values will be initiated with their default values
 ```
