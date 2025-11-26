@@ -8,7 +8,7 @@ public class Main {
         double total=0.0;
 
         //create a customer obj
-        Customer c1 = new Customer("Jaimie");
+        Customer c1 = new Customer("Jaimie", "S");
         //greet customer
         c1.greeting();
         //change customer name
@@ -36,5 +36,28 @@ public class Main {
         total += tax*(item1.getPrice()+(2*item2.getPrice())) + (item1.getPrice()+(2*item2.getPrice()));
         System.out.println("$"+total);
 
+        System.out.println(" ");
+
+        //derive the shirt size of the customer obj
+        System.out.println(sizeCalc(c1.getMeasure()));
+
+    }
+
+    public static String sizeCalc(int measurement) {
+        String size;
+        switch (measurement){
+            case 1:
+                size="S";
+                break;
+            case 2:
+                size="M";
+                break;
+            case 3:
+                size="L";
+                break;
+            default:
+                size="L";
+        }
+        return size;
     }
 }
