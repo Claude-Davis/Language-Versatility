@@ -4,7 +4,7 @@ Two variables of the same type can be initialized simultaneously.
     boolean a, b;
 ---
 
-- - - - -
+
 
 int types can be written with underscores and will still compile.
 This can aid readability.
@@ -13,7 +13,7 @@ This can aid readability.
 ---
 * The underscore will not be displayed if the value is printed.
 
-- - - - -
+
 
 Constants are variables whose value cannot change. A variable is made constant using the keyword *final*.
 ---
@@ -21,7 +21,7 @@ Constants are variables whose value cannot change. A variable is made constant u
 ---
 * Constants are usually written in all caps and words are separated by underscores, but these are not required.
 
-- - - - -
+
 
 Operator Precedence
     1. operators within parentheses
@@ -29,7 +29,7 @@ Operator Precedence
     3. multiplication and division (left to right)
     4. addition and subtraction (left to right)
 
-- - - - -
+
 
 Ternary Conditional Operator ?:
 ---
