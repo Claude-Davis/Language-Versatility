@@ -6,3 +6,7 @@ Visual Studio Code (vscode)
 
 Perl
     https://perl-begin.org/IDEs-and-tools/
+
+Eclipse
+    https://eclipseide.org/
+
