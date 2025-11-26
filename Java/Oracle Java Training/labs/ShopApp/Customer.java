@@ -9,10 +9,12 @@ public class Customer {
         this.size=s;}
 
     //getter
-    public void getName(){
-        System.out.println("This customer is " +name);}
+    public String getName(){
+        return name;}
     public int getMeasure(){
         return measurement;}
+    public String getSize(){
+        return size;}
     
     //setter
     public void setName(String n){

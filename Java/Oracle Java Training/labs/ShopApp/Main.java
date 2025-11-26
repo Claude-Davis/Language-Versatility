@@ -39,24 +39,24 @@ public class Main {
         System.out.println(" ");
 
         //derive the shirt size of the customer obj
-        System.out.println(sizeCalc(c1.getMeasure()));
+        System.out.println(c1.getName() + " is a size " + sizeCalc(c1.getMeasure(), c1));
 
     }
 
-    public static String sizeCalc(int measurement) {
+    public static String sizeCalc(int measurement, Customer x) {
         String size;
         switch (measurement){
-            case 1:
+            case 3:
                 size="S";
                 break;
             case 2:
                 size="M";
                 break;
-            case 3:
+            case 1:
                 size="L";
                 break;
             default:
-                size="L";
+                size=x.getSize();
         }
         return size;
     }
